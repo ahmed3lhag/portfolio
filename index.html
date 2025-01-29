@@ -6,7 +6,7 @@
     <meta name="description" content="Ahmed Elhag - Junior Developer Portfolio">
     
     <!-- فافيكون من الإنترنت -->
-    <link rel="icon" href="google.png" type="image/png">
+    <link rel="icon" href="logo.png" type="image/png">
     
     <title>Ahmed Elhag - Portfolio</title>
 
@@ -19,7 +19,7 @@
 <body>
     <header class="header">
     <div class="container">
-        <a href="#" class="logo">Ahmed</a>
+        <p  class="logo">PORTFOLIO</p>
         <button class="nav-toggle" aria-label="Toggle navigation">
             <span class="hamburger">&#9776;</span>
         </button>
@@ -28,9 +28,15 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#blog">Blog</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="/resume.pdf" class="btn btn-outline" target="_blank">Resume</a></li>
+                <a href="#" class="btn btn-outline">
+                <i class="fa-regular fa-file"> Resume</i>
+            </a>
+
+			
+
+
+
             </ul>
         </nav>
     </div>
@@ -48,13 +54,15 @@
                             <a href="#projects" class="btn btn-primary">View My Work</a>
                             <a href="#contact" class="btn btn-secondary">Get in Touch</a>
                         </div>
+                        <div class="social-links">
+                            <a href="https://github.com/ahmed3lhag" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://linkedin.com/in/ahmed3lhag"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://x.com/4hmedelhag" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="https://instagram.com/4hmedelhag/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
                     </div>
                     <div class="hero-image">
-                        <img src="photo.jpg" 
-                             alt="Ahmed Elhag"
-                             width="400"
-                             height="400"
-                             loading="eager">
+                        <img src="photo.jpg" alt="Ahmed Elhag" width="400" height="400" loading="eager">
                     </div>
                 </div>
             </div>
@@ -65,8 +73,10 @@
         <h2 class="section-title">About Me</h2>
         <div class="about-content">
             <div class="about-text">
-                <p class="lead">I'm a junior developer passionate about creating impactful digital solutions that make a difference.</p>
-                <p>With a foundation in web and mobile development, I combine technical expertise with creative problem-solving to build user-centered applications. My journey in technology is driven by continuous learning and a desire to contribute to meaningful projects.</p>
+                <p class="lead">I am a beginner web developer with a strong passion for creating innovative digital solutions. I have skills in web design and graphic design, using modern tools to deliver visually engaging user experiences. I am always eager to learn new technologies and continuously improve my skills, aiming to contribute to meaningful projects with a positive impact.</p>
+
+<p>With a foundation in web design, I combine technical expertise with creative problem-solving to build visually appealing and user-friendly applications. My journey in technology is driven by continuous learning and a desire to contribute to projects that make a real difference.</p>
+
                                   <div class="skills">
                             <h3>Technical Skills</h3>
                             <ul class="skills-list">
@@ -204,43 +214,16 @@
     </div>
 </section>
 
-    <section class="blog fade-in" id="blog">
-    <div class="container">
-        <h2 class="section-title">Latest Insights</h2>
-        <div class="blog-grid">
-            <article class="blog-card">
-                <div class="blog-content">
-                    <span class="blog-category">Development</span>
-                    <h3>Getting Started with React Native</h3>
-                    <p>A comprehensive guide to building your first mobile app with React Native.</p>
-                    <div class="blog-meta">
-                        <span>January 15, 2024</span>
-                        <span>5 min read</span>
-                    </div>
-                </div>
-            </article>
-            <article class="blog-card">
-                <div class="blog-content">
-                    <span class="blog-category">Tutorial</span>
-                    <h3>Python for Beginners</h3>
-                    <p>Essential Python concepts and practices for newcomers to programming.</p>
-                    <div class="blog-meta">
-                        <span>January 10, 2024</span>
-                        <span>8 min read</span>
-                    </div>
-                </div>
-            </article>
-        </div>
-    </div>
-</section>
 
-        <section class="contact fade-in" id="contact">
+          <section class="contact fade-in" id="contact">
     <div class="container">
         <h2 class="section-title">Let's Connect</h2>
         <div class="contact-content">
+            <!-- Contact Text Section -->
             <div class="contact-text">
                 <p class="lead">Interested in working together? Let's discuss your project.</p>
                 <div class="contact-info">
+                    <!-- Telegram Card -->
                     <div class="contact-item">
                         <i class="fab fa-telegram"></i>
                         <div>
@@ -248,6 +231,17 @@
                             <p>@ahmed3lhag</p>
                         </div>
                     </div>
+                    
+                    <!-- LinkedIn Card -->
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <p>linkedin.com/in/ahmed3lhag</p>
+                        </div>
+                    </div>
+
+                    <!-- Email Card -->
                     <div class="contact-item">
                         <i class="fas fa-envelope"></i>
                         <div>
@@ -256,23 +250,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="social-links">
-                    <a href="https://linkedin.com/in/ahmed3lhag" aria-label="LinkedIn">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://x.com/4hmedelhag" aria-label="Twitter">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="https://instagram.com/4hmedelhag/" aria-label="Instagram">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="https://github.com/ahmed3lhag" aria-label="GitHub">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </div>
             </div>
-     <form class="contact-form"  action="https://formspree.io/f/xwpvornq"
-method="POST">
+
+            <!-- Contact Form Section -->
+            <form class="contact-form" action="https://formspree.io/f/xwpvornq" method="POST">
                 <div class="form-group">
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" required placeholder="Enter your name">
@@ -285,52 +266,49 @@ method="POST">
                     <label for="message">Message</label>
                     <textarea id="message" name="message" rows="5" required placeholder="Enter your message"></textarea>
                 </div>
-<div class="g-recaptcha" data-sitekey="6LepQcYqAAAAAITi-fqkIHSvE9oragfzQh9RHTxj"></div>
+                <div class="g-recaptcha" data-sitekey="6LepQcYqAAAAAITi-fqkIHSvE9oragfzQh9RHTxj"></div>
                 <button type="submit" class="btn btn-primary">Send Message</button>
             </form>
         </div>
     </div>
 </section>
+
+
     </main>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <a href="#" class="logo">Ahmed</a>
-                    <p>Junior Developer crafting digital experiences.</p>
-                </div>
-                <div class="footer-links">
-                    <div class="footer-section">
-                        <h3>Navigation</h3>
-                        <ul>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#services">Services</a></li>
-                            <li><a href="#projects">Projects</a></li>
-                            <li><a href="#blog">Blog</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-section">
-                        <h3>Connect</h3>
-                        <ul>
-                            <li><a href="https://linkedin.com/in/ahmed3lhag">LinkedIn</a></li>
-                            <li><a href="https://github.com/ahmed3lhag">GitHub</a></li>
-                            <li><a href="https://x.com/4hmedelhag">Twitter</a></li>
-                            <li><a href="https://instagram.com/4hmedelhag/">Instagram</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p class="copyright">© 2025 Ahmed Elhag. All rights reserved.</p>
+   <footer class="footer">
+    <div class="container">
+        <div class="footer-column footer-brand">
+            <a href="#" class="logo">Ahmed</a>
+            <p class="footer-description">Junior Developer crafting digital experiences.</p>
+        </div>
+        <div class="footer-column footer-follow">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <!-- استبدال رابط الفيسبوك بـ GitHub -->
+                <a href="https://github.com/ahmed3lhag" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://x.com/4hmedelhag" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com/4hmedelhag/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://linkedin.com/in/ahmed3lhag" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
             </div>
         </div>
-    </footer>
+        <div class="footer-column footer-navigation">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p class="copyright">© 2025 Ahmed Elhag. All rights reserved.</p>
+    </div>
+</footer>
 
-   <button class="scroll-top" aria-label="Back to top">
-    <span class="scroll-text">Back to top</span>
-    <i class="fas fa-arrow-up"></i>
-</button>
+
+
+  
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script src="main.js"></script>
 </body>
