@@ -1,0 +1,337 @@
+<!<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ahmed Elhag - Junior Developer Portfolio">
+    
+    <!-- فافيكون من الإنترنت -->
+    <link rel="icon" href="google.png" type="image/png">
+    
+    <title>Ahmed Elhag - Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+    <div class="container">
+        <a href="#" class="logo">Ahmed</a>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+            <span class="hamburger">&#9776;</span>
+        </button>
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="/resume.pdf" class="btn btn-outline" target="_blank">Resume</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    <main>
+        <section class="hero fade-in" id="home">
+            <div class="hero-background"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>Hello, I'm <strong class="highlight">Ahmed</strong></h1>
+                        <p class="hero-subtitle">Junior Developer</p>
+                        <p class="hero-description">Crafting elegant solutions through code, one project at a time.</p>
+                        <div class="hero-cta">
+                            <a href="#projects" class="btn btn-primary">View My Work</a>
+                            <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="photo.jpg" 
+                             alt="Ahmed Elhag"
+                             width="400"
+                             height="400"
+                             loading="eager">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about fade-in" id="about">
+    <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p class="lead">I'm a junior developer passionate about creating impactful digital solutions that make a difference.</p>
+                <p>With a foundation in web and mobile development, I combine technical expertise with creative problem-solving to build user-centered applications. My journey in technology is driven by continuous learning and a desire to contribute to meaningful projects.</p>
+                                  <div class="skills">
+                            <h3>Technical Skills</h3>
+                            <ul class="skills-list">
+                                <li>Python</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+      <section class="services fade-in" id="services">
+    <div class="container">
+        <h2 class="section-title">Services</h2>
+        <div class="services-grid">
+            <article class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Web Development</h3>
+                <p>Creating responsive, user-friendly websites using modern technologies and best practices.</p>
+                <ul class="service-features">
+                    <li>Custom Website Development</li>
+                    <li>Frontend Development</li>
+                    <li>Performance Optimization</li>
+                </ul>
+            </article>
+            <!-- إضافة قسم تصميم الجرافيك -->
+            <article class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <h3>Graphic Design</h3>
+                <p>Creating visually appealing graphics for various platforms and needs.</p>
+                <ul class="service-features">
+                    <li>Logo Design</li>
+                    <li>Branding</li>
+                    <li>Illustration</li>
+                    <li>Social Media Graphics</li>
+                </ul>
+            </article>
+            <!-- إضافة قسم الدعم الفني IT Support -->
+            <article class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-tools"></i>
+                </div>
+                <h3>IT Support</h3>
+                <p>Providing technical support for troubleshooting and resolving basic hardware and software issues.</p>
+                <ul class="service-features">
+                    <li>PC and Mobile Troubleshooting</li>
+                    <li>Software Installation and Updates</li>
+                    <li>Network and Connectivity Solutions</li>
+                    <li>Hardware Repairs and Upgrades</li>
+                </ul>
+            </article>
+        </div>
+    </div>
+</section>
+     <section class="projects fade-in" id="projects">
+    <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="frontend.jpg" 
+                         alt="Frontend Development Project" 
+                         loading="lazy">
+                </div>
+                <div class="project-content">
+                    <h3>Front-End Development</h3>
+                    <p>Modern web development practices and responsive design implementation.</p>
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>TypeScript</span>
+                        <span>Tailwind</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://ahmed3lhag.github.io/Frontend" class="btn btn-secondary">View Project</a>
+                        <a href="https://github.com/ahmed3lhag/Frontend" class="btn btn-outline">
+                            <i class="fab fa-github"></i> Source
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+    <div class="project-image">
+        <img src="password.jpg" 
+             alt="Password Generator Project" 
+             loading="lazy">
+    </div>
+    <div class="project-content">
+        <h3>Password Generator</h3>
+        <p>A secure password generator built with Python, featuring customizable options.</p>
+        <div class="project-tags">
+            <span>Python</span>
+            <span>Security</span>
+            <span>CLI</span>
+        </div>
+        <div class="project-links">
+            <a href="#" class="btn btn-secondary">View Project</a>
+            <a href="#" class="btn btn-outline">
+                <i class="fab fa-github"></i> Source
+            </a>
+        </div>
+    </div>
+</article>
+
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="qr code.jpg" 
+                         alt="QR Code Generator Project" 
+                         loading="lazy">
+                </div>
+                <div class="project-content">
+                    <h3>QR Code Generator</h3>
+                    <p>A Python-based QR code generator with customization options.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>QR Code</span>
+                        <span>GUI</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/ahmed3lhag/qrcode_generator" class="btn btn-secondary">View Project</a>
+                        <a href="https://github.com/ahmed3lhag/qrcode_generator" class="btn btn-outline">
+                            <i class="fab fa-github"></i> Source
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+    <section class="blog fade-in" id="blog">
+    <div class="container">
+        <h2 class="section-title">Latest Insights</h2>
+        <div class="blog-grid">
+            <article class="blog-card">
+                <div class="blog-content">
+                    <span class="blog-category">Development</span>
+                    <h3>Getting Started with React Native</h3>
+                    <p>A comprehensive guide to building your first mobile app with React Native.</p>
+                    <div class="blog-meta">
+                        <span>January 15, 2024</span>
+                        <span>5 min read</span>
+                    </div>
+                </div>
+            </article>
+            <article class="blog-card">
+                <div class="blog-content">
+                    <span class="blog-category">Tutorial</span>
+                    <h3>Python for Beginners</h3>
+                    <p>Essential Python concepts and practices for newcomers to programming.</p>
+                    <div class="blog-meta">
+                        <span>January 10, 2024</span>
+                        <span>8 min read</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+        <section class="contact fade-in" id="contact">
+    <div class="container">
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="contact-content">
+            <div class="contact-text">
+                <p class="lead">Interested in working together? Let's discuss your project.</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fab fa-telegram"></i>
+                        <div>
+                            <h3>Telegram</h3>
+                            <p>@ahmed3lhag</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>email@example.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/ahmed3lhag" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://x.com/4hmedelhag" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://instagram.com/4hmedelhag/" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/ahmed3lhag" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+     <form class="contact-form"  action="https://formspree.io/f/xwpvornq"
+method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Enter your message"></textarea>
+                </div>
+<div class="g-recaptcha" data-sitekey="6LepQcYqAAAAAITi-fqkIHSvE9oragfzQh9RHTxj"></div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">Ahmed</a>
+                    <p>Junior Developer crafting digital experiences.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h3>Navigation</h3>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Connect</h3>
+                        <ul>
+                            <li><a href="https://linkedin.com/in/ahmed3lhag">LinkedIn</a></li>
+                            <li><a href="https://github.com/ahmed3lhag">GitHub</a></li>
+                            <li><a href="https://x.com/4hmedelhag">Twitter</a></li>
+                            <li><a href="https://instagram.com/4hmedelhag/">Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">© 2025 Ahmed Elhag. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+   <button class="scroll-top" aria-label="Back to top">
+    <span class="scroll-text">Back to top</span>
+    <i class="fas fa-arrow-up"></i>
+</button>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="main.js"></script>
+</body>
+</html>
