@@ -420,6 +420,7 @@ h1, h2, h3 {
 }
 
 
+
 /* Skills Section */
 .skills {
     max-width: 1100px;
@@ -436,21 +437,27 @@ h1, h2, h3 {
     color: #333;
 }
 
+/* Horizontal Scrollable Skills List */
 .skills-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    gap: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    padding: 1rem 0;
     list-style: none;
-    padding: 0;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
 }
 
 .skills-list li {
+    flex: 0 0 auto;
+    min-width: 160px;
     background-color: #f1f1f1;
     padding: 1rem;
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     font-weight: 600;
+    scroll-snap-align: start;
 }
 
 .skills-list li:hover {
@@ -458,7 +465,7 @@ h1, h2, h3 {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Responsive Design */
+/* Responsive Typography */
 @media (max-width: 768px) {
     .skills-header {
         font-size: 1.8rem;
@@ -470,7 +477,6 @@ h1, h2, h3 {
         font-size: 1.5rem;
     }
 }
-
 /* Services Section */
 .services {
     padding: 6rem 0;
